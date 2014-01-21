@@ -1,0 +1,147 @@
+form#payment {
+    background:/*rgba(53,48,63,.3);
+    */
+ #35303f url(../images/upload/Contact_Form_BG.png) no-repeat;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    padding:0px;
+    width:670px;
+    counter-reset:fieldsets;
+    /*opacity:0.6;
+    filter:alpha(opacity=60);
+    /* For IE8 and earlier */
+}
+form#payment fieldset {
+    border:none;
+    margin-bottom:10px;
+    padding:20px;
+}
+form#payment fieldset:last-of-type {
+    margin-bottom:0px;
+}
+form#payment legend {
+    color:#f63253;
+    font-size:16px;
+    font-weight:bold;
+    padding-bottom:10px;
+    text-shadow:0 1px 1px #b3243b;
+    padding:20px;
+}
+form#payment > fieldset > legend:before {
+    content:"Step " counter(fieldsets) ":";
+    counter-increment:fieldsets;
+    padding:20px;
+}
+form#payment fieldset fieldset legend {
+    color:#111111;
+    color:rgba(17,17,17,.6);
+    font-size:13px;
+    font-weight:normal;
+    padding-bottom:0px;
+    padding:-1px;
+    padding-left:0px;
+    float:left;
+    width:85px;
+    text-shadow:0px 0px 0px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+}
+form#payment ol li {
+    background:#b9cf6a;
+    background:rgba(255,255,255,.3);
+    border-color:#e3ebc3;
+    border-color:rgba(255,255,255,.6);
+    border-style:solid;
+    border-width:2px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    line-height:30px;
+    list-style:none;
+    padding:5px 10px;
+    margin-bottom:2px;
+}
+form#payment ol ol li {
+    background:none;
+    border:none;
+    float:left;
+    padding:20px;
+}
+form#payment label {
+    float:left;
+    font-size:13px;
+    width:110px;
+}
+form#payment fieldset fieldset label {
+    background:none no-repeat left 50%;
+    line-height:20px;
+    padding:0 0 0 30px;
+    width:auto;
+}
+form#payment fieldset fieldset {
+    border:none;
+    margin-bottom:10px;
+    width:auto;
+    padding:0px;
+}
+form#payment label[for=visa] {
+    background-image:url(images/pay/visa.gif);
+}
+form#payment label[for=amex] {
+    background-image:url(images/pay/amex.gif);
+}
+form#payment label[for=mastercard] {
+    background-image:url(images/pay/mastercard.gif);
+}
+form#payment fieldset fieldset label:hover {
+    cursor:pointer;
+}
+form#payment input:not([type=radio]),form#payment textarea {
+    background:#ffffff;
+    border:none;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -khtml-border-radius:3px;
+    border-radius:3px;
+    font:italic 13px Georgia, "Times New Roman", Times, serif;
+    outline:none;
+    padding:5px;
+    width:200px;
+}
+form#payment input:not([type=submit]):focus,form#payment textarea:focus {
+    background:#eaeaea;
+    color:#f63253;
+}
+form#payment input[type=radio] {
+    float:left;
+    margin-right:5px;
+}
+form#payment button {
+    background:#f63253 url("../images/upload/Contact_Form_Submit_Up.png");
+    width:106px;
+    height:38px;
+    float:right;
+    text-indent:-9999px;
+    border:none;
+    display:block;
+    margin:0 25px 0 0;
+    border:none;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    -khtml-border-radius:20px;
+    border-radius:20px;
+}
+form#payment button:hover {
+    background:#b3243b url("../images/upload/Contact_Form_Submit_Down.png");
+    cursor:pointer;
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+    -khtml-border-radius:20px;
+    border-radius:20px;
+}
+#top_name {
+    background:url(../images/upload/Contact_Form_Uploads.png);
+    height:67px;
+    width:212px;
+    margin:-5px auto;
+}

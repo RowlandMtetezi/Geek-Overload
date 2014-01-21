@@ -1,0 +1,78 @@
+/* For generic page styles. Not for sliders. */
+
+html {
+    background:url('../images/bg_tile.jpg') #161718;
+}
+body {
+    //*background:url(images/stats/Border.jpg) no-repeat;
+    */
+/background:#ffffff;
+    color:#111111;
+    font:normal 0.9em Tahoma;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    margin:10px auto;
+    padding:20px;
+    padding-bottom:0px;
+    width:760px}
+#wrap {
+    background:url(../images/stats/Border.jpg) no-repeat;
+    background-position:center;
+    /*width:760px;
+    */
+height:800px;
+    margin:0px auto;
+    padding-right:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:solid 2px #ff375c;
+}
+h2 {
+    display:inline;
+}
+.div1, .div2 {
+    width:700px;
+    margin:0 auto;
+}
+.div1 {
+    margin-top:30px;
+    margin-bottom:60px;
+    text-align:center;
+    line-height:20px;
+}
+.div1 P {
+    font-size:18px;
+}
+.div1 a, .div2 a {
+    color:#07C;
+}
+.div2 {
+    margin-top:70px;
+}
+.div2 li {
+    padding-top:6px;
+    padding-bottom:6px;
+}
+.green {
+    color:Green;
+}
+.cn {
+    font-family:"Courier New", Georgia;
+}
+#status {
+    display:inline-block;
+    margin-left:26px;
+    line-height:50px;
+    height:50px;
+    vertical-align:middle;
+}
+.code {
+    border:dashed 1px #BCBCCB;
+    padding:8px 12px;
+    background-color:#F3F3F9;
+    white-space:pre;
+    font-family:"Courier New", Georgia;
+    font-size:12px;
+    margin:6px 0;
+    overflow:auto;
+}

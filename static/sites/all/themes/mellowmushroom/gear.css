@@ -1,0 +1,226 @@
+
+ul.primary {
+    display: none;
+}
+
+#site-header {
+    background: url('images/gear/gear-header.png') no-repeat left bottom;
+    height: 420px;
+}
+
+.page-catalog #main, .page-node-product #main, .page-node #main {
+    top: 0px;
+}
+
+#main-content {
+    background: url('sites/all/themes/mellowmushroom/images/lite_cardboard_bg.png') repeat-y;
+}
+#main-content .category-grid-products{
+    background: url('sites/all/themes/mellowmushroom/images/gear/gear_list_bg_watermark.png') right bottom no-repeat;
+}
+#main-content .node{
+    background: url('sites/all/themes/mellowmushroom/images/gear/snap_frog.png') no-repeat bottom right;
+}
+
+.page-catalog #footer, .page-node-product #footer, .page-node #footer {
+    top: 0px;
+}
+
+.category-grid-products td {
+    background: none;
+    border: none;
+}
+
+tbody, .category-grid-products table {
+    border: none;
+}
+
+.catalog-grid-title a {
+    font-family: 'AsapBold';
+    color: #ac3101;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.uc-price {
+    font-family: 'AsapBold';
+    color: #5e3627;
+    font-size: 14px;
+}
+
+.category-grid-products .catalog-grid-image {
+    background: none;
+    width: 266px; /* Added this so that catalog displays with only 1 or 2 entries display left justified - bhz */
+}
+
+.category-grid-products .catalog-grid-image img,
+.main-product-image img {
+    box-shadow: 0px 0px 2px 0px black;
+    padding: 8px;
+    background: #e9e4e0;
+}
+
+.category-grid-products td, .category-grid-products .catalog-grid-title, .category-grid-products .catalog-grid-sell-price {
+    text-align: left;
+    margin-left: 13px;
+}
+
+ul.pager {
+/*    font-family: 'AsapBold';
+    color: #5e3627;
+    font-size: 14px;*/
+    margin-left: 20px;
+}
+
+#prod-image-col h3 {
+    font-family: 'AsapBold';
+    color: #ac3101;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom:  5px;
+}
+
+#description {
+    font-family: 'AsapBold';
+    color: #5e3627;
+    font-size: 14px;
+}
+
+#form-col h2 {
+    font-family: 'ChangingMedium';
+    color: #ac3101;
+    font-size: 50px;
+}
+
+.uc-price  {
+    font-family: 'ChangingMedium';
+    color: #5e3627;
+    font-size: 50px;
+}
+
+.uc-price-display {
+    clear: inherit;
+    float: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 0;
+    padding-left: 0;
+    text-align: left;
+    width: inherit;
+}
+
+.page-node .uc-price-display {
+    font-size: 50px;
+}
+
+.page-catalog .uc-price {
+    font-size: 25px;
+}
+
+#sizes ul li {
+    display: inline;
+    font-family: "ChangingMedium";
+    font-size: 50px;
+}
+
+#sizes ul li a {
+    text-decoration: none;
+    color: #b29d84;
+    background: #85705a;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: block;
+    float: left;
+    line-height: 50px;
+    margin-top: 5px;
+}
+
+#edit-qty-wrapper {
+    clear: left;
+    top: 18px;
+    position: relative;
+    bottom: 18px;
+}
+
+#sizes ul li a:hover,
+#sizes ul li a.active {
+    background: #ac3101;
+}
+
+#cart ul {
+    margin: 0;    
+}
+
+#cart label {
+    color: #ac3101;
+    font-family: "AsapBold";
+    font-size: 18px;
+    line-height: 18px;
+}
+
+#cart .form-text {
+    background: #85705a;
+    border-radius: 5px;
+    border-top: none;
+    border-bottom: 1px solid #cbbba5;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
+    font-size: 16px;
+    color: #fff;
+    box-shadow: inset 1px 1px 3px #000000;
+}
+
+#cart .form-text:focus {
+    outline: none;
+}
+
+#cart .form-submit {
+    background: url('images/gear/add-to-cart.png') no-repeat;
+    width: 162px;
+    height: 44px;
+    border: none;
+    text-indent: -1000px;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-bottom: 30px;
+}
+
+#details {
+    margin-left: 18px;
+}
+.page-node .terms-inline, .page-node-product .terms-inline {
+    padding: 20px;
+    display: block;
+}
+.page-node .terms-inline li, .page-node-product .terms-inline li {
+    font-family: "ChangingMedium";
+    font-size: 24px;
+}
+.page-node .terms-inline li a, .page-node-product .terms-inline li a {
+    color: #fff;
+    text-decoration: none;
+    background: #ac3101;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+#social {
+    margin-left: 16px;
+}
+.go_back_btn {
+    color: white;
+    text-decoration: none;
+    background: #AC3101;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-family: "ChangingMedium";
+    font-size: 24px;
+    vertical-align: top;
+}
+
+#form-col {
+    margin-top: -70px;
+}
